@@ -212,9 +212,18 @@
     <Compile Include="Migrations\202008120213474_AddedDateToCustomer.designer.cs">
       <DependentUpon>202008120213474_AddedDateToCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202008130131057_AddMovieTableToDatabase.cs" />
+    <Compile Include="Migrations\202008130131057_AddMovieTableToDatabase.designer.cs">
+      <DependentUpon>202008130131057_AddMovieTableToDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202008130142424_AddGenre.cs" />
+    <Compile Include="Migrations\202008130142424_AddGenre.designer.cs">
+      <DependentUpon>202008130142424_AddGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -425,6 +434,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008120213474_AddedDateToCustomer.resx">
       <DependentUpon>202008120213474_AddedDateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008130131057_AddMovieTableToDatabase.resx">
+      <DependentUpon>202008130131057_AddMovieTableToDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008130142424_AddGenre.resx">
+      <DependentUpon>202008130142424_AddGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
